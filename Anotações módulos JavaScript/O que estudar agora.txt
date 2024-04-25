@@ -1,0 +1,9 @@
+functions > arrow functions, callbacks, funções anônimas, as iife;
+objetos;
+modularização;
+RegEx;
+JSON;
+AJAX;
+NodeJS;
+Jqery,Vue.js,Angular
+React.

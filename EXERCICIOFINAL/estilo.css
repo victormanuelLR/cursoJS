@@ -1,0 +1,26 @@
+body {
+    background: rgb(63, 214, 234);
+    font: normal 15px Arial;
+}
+header {
+    color: rgb(69, 42, 48);
+    text-align: center;
+}
+section {
+    background-image:linear-gradient(to top,rgb(0, 184, 246) 40%,rgb(218, 18, 18));
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(2, 2, 2, 0.696);
+    background-attachment: fixed;
+}
+
+footer {
+    color: rgb(69, 42, 48);
+    text-align: center;
+    font-style: italic;
+}
+select {
+    width: 100px;
+}

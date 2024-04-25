@@ -1,0 +1,16 @@
+1º Modulo
+
+HTMl: A estrutura da pagina
+CSS: O desing da pagina
+Java Script: A inteligência da pagina
+
+ECMAScript: Padronização do JavaScript
+FrameWorks: Ferramentas de auxiliação para o JavaScript
+Netscape: Criadora principal do JavaScript
+
+Leitura: Guia de referencia da mozilla e o Guia de referencia da ECMA
+Formas de acessar: developer.mozilla.org. ecma-international.org: standart ECMA-262
+
+windows.alert('')
+windows.confirm('')
+windows.prompt('')

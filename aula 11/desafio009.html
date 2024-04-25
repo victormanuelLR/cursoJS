@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>É brasileiro?</title>
+</head>
+<body>
+    <h1>É brasileiro?</h1>
+    Teste de brasileiridade :<input type="text" id="AResposta">
+    <input type="button" value="Testar" onclick="Testar()">
+    <div id="Resultado"></div>
+    <script>
+        function Testar () {
+            var AResposta = window.document.querySelector('input#AResposta')
+            var Resultado = window.document.querySelector('div#Resultado')
+            var AResposta = AResposta.value
+            var AResposta = AResposta.toLowerCase()
+            if (AResposta === 'brasileiro') {
+                Resultado.innerHTML = `<P>Você é brasileiro!</p>`
+            } else {
+                Resultado.innerHTML = `<p>Você não é brasileiro</p>`
+            }
+        }
+        
+    </script>
+</body>
+</html>

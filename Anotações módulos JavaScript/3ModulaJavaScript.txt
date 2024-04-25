@@ -1,0 +1,28 @@
+DOM = Document Object Model // não roda no NodeJS.
+
+Árvore DOM:
+	window
+location; document; history
+	  html
+  head		body
+meta title	
+	
+	h1; p ; p ; div
+		strong
+
+
+
+Se chama 'child' aquele objeto que esta abaixo do elemento referido e 'parent' o elemento a qual se é referido
+
+No queryselector caso se busque um 'id' use #; ex: 'div#msg' ,'p#texto'; caso seja uma 'class' use .; ex: 'div.pratos'
+
+Eventos DOM
+<DIV>
+mousenter; mousemove; mousedown; mouseup;
+click; mouseout
+
+função só é ativada quando um determinado evento for cumprido
+função:
+function ação(){
+bloco
+}

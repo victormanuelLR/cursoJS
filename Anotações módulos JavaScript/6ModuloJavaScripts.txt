@@ -1,0 +1,26 @@
+Array é uma variavel que pode armazenar mais de um valor
+
+lista.push(item) adiciona um item a lista
+lista.sort() organiza a lista
+lista.length
+
+Esses valores são chamados de Elementos
+
+Elementos contem seu valor e sua chave de indentificação
+
+.indexOf() é para localizar a chave do item e sé esse item está ou não no array
+
+if in serve para saber se essa chave está ou não na lista
+
+fuction estruturas:
+chamada;
+parametro; nem toda função usa parametro
+ação;
+retorno. nem toda função tem retorno
+
+função recursiva
+
+da pra criar uma função que funciona como parâmetro retornando valores true ou false
+
+Array é um objeto
+e objeto é um objeto

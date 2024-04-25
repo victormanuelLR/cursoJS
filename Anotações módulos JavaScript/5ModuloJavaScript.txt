@@ -1,0 +1,8 @@
+do {
+
+} while (lógica) é o mesmo que while só que o teste acontece em baixo
+
+for(c = 0; c < 10; c++) {
+}
+
+

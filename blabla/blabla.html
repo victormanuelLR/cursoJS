@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blabla</title>
+    <style>
+        div#Mine {
+            font: normal 20pt Arial;
+            background: rgb(19, 241, 104);
+            color: rgb(197, 13, 126);
+            height: 100px;
+            width: 150px;
+            line-height: 100px;
+            
+            text-align: center;
+        }
+        body {
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="Mine"> Minecraft</div>
+    <script>
+        var mine = window.document.getElementById('Mine')
+        mine.addEventListener('click', clicar)
+        seletor_de_cor = 0
+        function clicar () {
+            seletor_de_cor ++
+            //document.write(seletor_de_cor)
+            if (seletor_de_cor == 1) {
+                mine.style.background = 'blue'
+                mine.innerText = 'Craft'
+            } else {
+                mine.style.background = 'rgb(19, 241, 104)'
+                mine.innerText = 'Minecraft'
+                seletor_de_cor = 0
+            }
+        }
+
+    </script>
+</body>
+</html>

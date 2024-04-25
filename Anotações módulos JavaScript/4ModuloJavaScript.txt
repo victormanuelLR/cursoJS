@@ -1,0 +1,17 @@
+new Date: é um comando feito para saber a hora do computador
+switch(expressão) {
+	case valor 1
+
+	break // obrigatorio
+	case valor 2
+	
+	break
+
+	...
+
+	break
+
+	default: // como se fosse o else
+
+	break // esse é opcional
+}

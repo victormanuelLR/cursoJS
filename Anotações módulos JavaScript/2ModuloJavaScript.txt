@@ -1,0 +1,43 @@
+2º Módulo
+
+Tanto // quanto /* */ servem para fazer comentarios tendo como unica diferença a quantidade de linhas.
+
+Identificadores é como se chamam os nomes das variáveis em JavaScript,
+Eles não podem começar com numeros ou serem nomeados como algum script já presente no JavaScript.
+
+var é pra definir uma variavel
+
+typeof serve pra descobrir o valor da variavel
+
+juntar variavel e string se chama concatenação 
+
+Number(variavel) transforma variavel em type Number
+
+String(variavel) ou variavel.toString() transforma variavel em type String  
+
+Formatando strings:
+
+variavel.length()
+
+Formatando numbers:
+
+> n1 = 1545.5
+1545.5
+> n1.toFixed(2)
+'1545.50'
+> n1.toFixed(2).replace('.',',')
+'1545,50'
+
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) 
+
+= : atribuição // a = 5
+== : igualdade // 4 == 4 : true , 5 == '5' : true
+=== : igualdade restrita // 4 === 4 : true , 5 === '5' : false
+
+&& = conjunção = e
+|| = dijunção = ou
+
+aritméticos > relacionais > lógicos > ternário
+! > && > || 
+
+térnario = variavel ? true : false

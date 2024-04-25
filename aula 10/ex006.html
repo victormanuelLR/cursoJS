@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>botão</title>
+    <style>
+        div#area {
+            font: normal 20pt Arial;
+            background: rgb(130, 234, 130);
+            color:white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div id="area" > <!--onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()"-->
+        Interaja...
+    </div>
+    <script>
+        let clk = 'clicou'
+        var area = window.document.getElementById('area')
+        area.addEventListener('click', clicar)
+        area.addEventListener('mouseenter', entrar)
+        area.addEventListener('mouseout', sair)
+        function clicar() {
+            if (clk === 'clicou' ) {
+                area.innerText = clk
+                area.style.background = 'red'
+                clk = 'clicou de novo'
+            }
+            else {
+                area.innerText = clk
+                area.style.background = 'red'
+                clk = 'clicou'
+            }
+        }
+        function entrar () {
+            area.innerText = 'entrou'
+        }
+        function sair () {
+            area.innerText = 'saiu'
+            area.style.background = 'rgb(130, 234, 130)'
+        }
+    </script>
+</body>
+</html>
